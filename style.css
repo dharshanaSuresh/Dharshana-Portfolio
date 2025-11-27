@@ -1,0 +1,111 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    background-color: #fdfcf8;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(to right, #f8f4ec, #eae8e3);
+    padding: 2rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+header p {
+    margin: 0.5rem 0 1rem 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #555;
+    font-weight: 600;
+}
+
+section {
+    padding: 3rem 1rem;
+    max-width: 1000px;
+    margin: auto;
+}
+
+h2 {
+    color: #444;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Accordion Styles */
+.accordion-button {
+    background-color: #f0f0f0;
+    border: none;
+    padding: 1rem;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    font-weight: 600;
+    margin-bottom: 0.3rem;
+    border-radius: 5px;
+}
+
+.accordion-content {
+    display: none;
+    padding: 0.5rem 1rem;
+    background-color: #fafafa;
+    border-left: 3px solid #d1c7b7;
+    margin-bottom: 1rem;
+}
+
+/* Cards Grid */
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+}
+
+.card {
+    background-color: #fdfaf6;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+/* Odoo Modules Grid */
+.grid-modules {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 0.5rem;
+}
+
+.grid-modules span {
+    background-color: #f6f5f3;
+    padding: 0.5rem;
+    text-align: center;
+    border-radius: 5px;
+}
+
+/* Timeline */
+.timeline {
+    list-style: none;
+    padding: 0;
+}
+
+.timeline li {
+    background-color: #f6f5f3;
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+    border-left: 4px solid #d1c7b7;
+    border-radius: 5px;
+}
